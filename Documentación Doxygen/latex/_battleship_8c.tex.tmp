@@ -1,0 +1,25 @@
+\section{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+AB 1/\+Battleship/src/\+Battleship.c File Reference}
+\label{_battleship_8c}\index{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+A\+B 1/\+Battleship/src/\+Battleship.\+c@{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+A\+B 1/\+Battleship/src/\+Battleship.\+c}}
+{\ttfamily \#include \char`\"{}funciones.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}structs.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}constants.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Include dependency graph for Battleship.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bf main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\label{_battleship_8c_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{Battleship.\+c@{Battleship.\+c}!main@{main}}
+\index{main@{main}!Battleship.\+c@{Battleship.\+c}}
+\subsubsection{main()}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 1

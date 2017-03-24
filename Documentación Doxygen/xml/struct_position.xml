@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_position" kind="struct" language="C++" prot="public">
+    <compoundname>Position</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Fila</definition>
+        <argsstring></argsstring>
+        <name>Fila</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="24" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a85f21b3597c4c3b3622a26ad6f249411" compoundref="funciones_8c" startline="811" endline="817">setPosition</referencedby>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+        <referencedby refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" compoundref="funciones_8c" startline="993" endline="1032">BarcoAtacado</referencedby>
+        <referencedby refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" compoundref="funciones_8c" startline="1176" endline="1238">AtaquesMasivos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Columna</definition>
+        <argsstring></argsstring>
+        <name>Columna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="25" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a85f21b3597c4c3b3622a26ad6f249411" compoundref="funciones_8c" startline="811" endline="817">setPosition</referencedby>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+        <referencedby refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" compoundref="funciones_8c" startline="993" endline="1032">BarcoAtacado</referencedby>
+        <referencedby refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" compoundref="funciones_8c" startline="1176" endline="1238">AtaquesMasivos</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="23" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="22" bodyend="26"/>
+    <listofallmembers>
+      <member refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" prot="public" virt="non-virtual"><scope>Position</scope><name>Columna</name></member>
+      <member refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" prot="public" virt="non-virtual"><scope>Position</scope><name>Fila</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

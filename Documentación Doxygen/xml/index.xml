@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="struct_board" kind="struct"><name>Board</name>
+    <member refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" kind="variable"><name>matriz</name></member>
+    <member refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" kind="variable"><name>n</name></member>
+    <member refid="struct_board_1a742204794ea328ba293fe59cec79b990" kind="variable"><name>m</name></member>
+    <member refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" kind="variable"><name>Dificultad</name></member>
+    <member refid="struct_board_1a1f004d7e9bf005e7cea3845268f11045" kind="variable"><name>lastPlayer</name></member>
+    <member refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" kind="variable"><name>BarcosEnemigos</name></member>
+    <member refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" kind="variable"><name>BarcosJugador</name></member>
+    <member refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" kind="variable"><name>ActualBarcosEnemigos</name></member>
+    <member refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" kind="variable"><name>ActualBarcosJugador</name></member>
+    <member refid="struct_board_1ad607508d45f757dbbdc5ecf00c0d8914" kind="variable"><name>JuegoFinalizado</name></member>
+    <member refid="struct_board_1a5e46f00fda855006138e8ff65f396dc5" kind="variable"><name>UltimoJugador</name></member>
+    <member refid="struct_board_1ae46a086677666832abca3fdc41d463ea" kind="variable"><name>Enemigos</name></member>
+    <member refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" kind="variable"><name>Jugador</name></member>
+  </compound>
+  <compound refid="struct_game" kind="struct"><name>Game</name>
+    <member refid="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" kind="variable"><name>board</name></member>
+  </compound>
+  <compound refid="struct_params" kind="struct"><name>Params</name>
+    <member refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" kind="variable"><name>CantidadxTipoBarco</name></member>
+    <member refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" kind="variable"><name>Dificultad</name></member>
+  </compound>
+  <compound refid="struct_position" kind="struct"><name>Position</name>
+    <member refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" kind="variable"><name>Fila</name></member>
+    <member refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" kind="variable"><name>Columna</name></member>
+  </compound>
+  <compound refid="struct_ship" kind="struct"><name>Ship</name>
+    <member refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" kind="variable"><name>Largo</name></member>
+    <member refid="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" kind="variable"><name>Ancho</name></member>
+    <member refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" kind="variable"><name>Vida</name></member>
+    <member refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" kind="variable"><name>TipoAtaque</name></member>
+    <member refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" kind="variable"><name>charBarco</name></member>
+    <member refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" kind="variable"><name>comandante</name></member>
+    <member refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" kind="variable"><name>Defensa</name></member>
+    <member refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" kind="variable"><name>PosicionesTablero</name></member>
+    <member refid="struct_ship_1ab317681e869f6ab39667acc8d18e48b3" kind="variable"><name>PosicionTablero</name></member>
+  </compound>
+  <compound refid="_battleship_8c" kind="file"><name>Battleship.c</name>
+    <member refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="constants_8h" kind="file"><name>constants.h</name>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5c" kind="enum"><name>pieza</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca2c63acbe79d9f41ba6bb7766e9c37702" kind="enumvalue"><name>N</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca42a4ade1acd55a49164099104990e09f" kind="enumvalue"><name>A</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca82f05f38f6a17b117cdd2b83227912c6" kind="enumvalue"><name>P</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5caf1ce01387d2348f8b858721a7db81670" kind="enumvalue"><name>S</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca3f2a77ecd272aa6d6b5902faa5e5fc68" kind="enumvalue"><name>B</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5caf4b8b7698dfedf5562a7db2bdb07010a" kind="enumvalue"><name>O</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca58833a3110c570fb05130d40c365d1e4" kind="enumvalue"><name>X</name></member>
+    <member refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5cab722ceeb601c72cd78fbd35f3581fdf7" kind="enumvalue"><name>W</name></member>
+    <member refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kind="enum"><name>Comandante</name></member>
+    <member refid="constants_8h_1a6ba34ace324253d5b25978371834f760a03605500b0c55f3d95874e8edfcf4e30" kind="enumvalue"><name>J</name></member>
+    <member refid="constants_8h_1a6ba34ace324253d5b25978371834f760ab199e021998d49b1f09338d8b9b18ecb" kind="enumvalue"><name>E</name></member>
+    <member refid="constants_8h_1af6a258d8f3ee5206d682d799316314b1" kind="enum"><name>bool</name></member>
+    <member refid="constants_8h_1af6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a" kind="enumvalue"><name>FALSE</name></member>
+    <member refid="constants_8h_1af6a258d8f3ee5206d682d799316314b1aa82764c3079aea4e60c80e45befbb839" kind="enumvalue"><name>TRUE</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kind="enum"><name>code</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" kind="enumvalue"><name>OK</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ada4f0a1cfb10ccb270e0c1c7b8db5a78" kind="enumvalue"><name>ERROR_FILE_404</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a53bb06e71332bfaa4c5783728a3662bb" kind="enumvalue"><name>ERROR_FILE_NOT_PERM</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683acda5537053ae99f6436b353a46571f63" kind="enumvalue"><name>ERROR_ID_NOT_FOUND</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a18539d2d73c87494714e8b37d002b66e" kind="enumvalue"><name>IMPOSSIBLE_VALID_BOARD</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2fa3114dc11f3a0dbfc8f2a3d141e2da" kind="enumvalue"><name>NOT_ENOUGH_MEMORY</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ad8aa5eba4ae8987e8b813fd0545fcfaa" kind="enumvalue"><name>WRONG_DIM</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2fd6f336d08340583bd620a7f5694c90" kind="enumvalue"><name>ERROR</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a32e59aaef2390122911fd0355259a5ce" kind="enumvalue"><name>WRONG_DIFFICULTY</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a546a32e8994e1b6b71cd01afd557b36c" kind="enumvalue"><name>BOARD_NOT_FOUND</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a7fc4f05d14e74db10fcb8f6b7c253fab" kind="enumvalue"><name>PUT_ERROR_OCUPPED</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a914fdb64aa98592cbbc83ef20644383d" kind="enumvalue"><name>ERROR_MAX_SHIP_REACHED</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683adfb49b4615e618ba68c6f0666ac90fa3" kind="enumvalue"><name>ERROR_ITS_NOT_YOUR_TURN</name></member>
+    <member refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a51e281a6150aebba05dd0622250aaa4b" kind="enumvalue"><name>ERROR_GAME_FINALIZED</name></member>
+  </compound>
+  <compound refid="funciones_8c" kind="file"><name>funciones.c</name>
+    <member refid="funciones_8c_1aa971770733231651e7c3e68530aa5563" kind="function"><name>createBoard</name></member>
+    <member refid="funciones_8c_1acf7fb2d72d56ba30e1956c8e05247ce7" kind="function"><name>print</name></member>
+    <member refid="funciones_8c_1a87582dd6476bdbcd4c9dab6c371a0ef9" kind="function"><name>destroyBoard</name></member>
+    <member refid="funciones_8c_1a1c6878523e5a0460bdac9b23b0266c12" kind="function"><name>setParams</name></member>
+    <member refid="funciones_8c_1a601ceec2c364cd451fa0743194104a99" kind="function"><name>putShip</name></member>
+    <member refid="funciones_8c_1a3ff7ba459575ce6387fc046876832c56" kind="function"><name>cfgShips</name></member>
+    <member refid="funciones_8c_1a85f21b3597c4c3b3622a26ad6f249411" kind="function"><name>setPosition</name></member>
+    <member refid="funciones_8c_1a6400036d175afce2372bc6bdd454b7f9" kind="function"><name>play</name></member>
+    <member refid="funciones_8c_1a239d2a4d17c05ed3c75c7355fe010abb" kind="function"><name>BarcoAtacado</name></member>
+    <member refid="funciones_8c_1a61cc12ef0ad979f7dbd81c62f0bfffd8" kind="function"><name>saveBoard</name></member>
+    <member refid="funciones_8c_1a0ff3822d75e160b1f73eb734a175f99a" kind="function"><name>loadBoard</name></member>
+    <member refid="funciones_8c_1a76eb46ff45a6b9a08d6e52d92302cce9" kind="function"><name>generateID</name></member>
+    <member refid="funciones_8c_1a2ba9e38caf8780cd911190db47e91981" kind="function"><name>checkBoard</name></member>
+    <member refid="funciones_8c_1a61dcba4f41ed411eb45956ed8b5c174b" kind="function"><name>AtaquesMasivos</name></member>
+    <member refid="funciones_8c_1a150dfb9de666aa3178ab5efd7422fe27" kind="function"><name>getScore</name></member>
+  </compound>
+  <compound refid="funciones_8h" kind="file"><name>funciones.h</name>
+    <member refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" kind="function"><name>createBoard</name></member>
+    <member refid="funciones_8h_1acf7fb2d72d56ba30e1956c8e05247ce7" kind="function"><name>print</name></member>
+    <member refid="funciones_8h_1a2ba9e38caf8780cd911190db47e91981" kind="function"><name>checkBoard</name></member>
+    <member refid="funciones_8h_1a61cc12ef0ad979f7dbd81c62f0bfffd8" kind="function"><name>saveBoard</name></member>
+    <member refid="funciones_8h_1a0ff3822d75e160b1f73eb734a175f99a" kind="function"><name>loadBoard</name></member>
+    <member refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" kind="function"><name>putShip</name></member>
+    <member refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" kind="function"><name>play</name></member>
+    <member refid="funciones_8h_1a85f21b3597c4c3b3622a26ad6f249411" kind="function"><name>setPosition</name></member>
+    <member refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" kind="function"><name>cfgShips</name></member>
+    <member refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" kind="function"><name>BarcoAtacado</name></member>
+    <member refid="funciones_8h_1a76eb46ff45a6b9a08d6e52d92302cce9" kind="function"><name>generateID</name></member>
+    <member refid="funciones_8h_1a1c6878523e5a0460bdac9b23b0266c12" kind="function"><name>setParams</name></member>
+    <member refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" kind="function"><name>AtaquesMasivos</name></member>
+    <member refid="funciones_8h_1a87582dd6476bdbcd4c9dab6c371a0ef9" kind="function"><name>destroyBoard</name></member>
+    <member refid="funciones_8h_1a150dfb9de666aa3178ab5efd7422fe27" kind="function"><name>getScore</name></member>
+  </compound>
+  <compound refid="structs_8h" kind="file"><name>structs.h</name>
+  </compound>
+  <compound refid="dir_b294f2ea6577d00266ff690c71b27031" kind="dir"><name>C:/Users/ALIEN</name>
+  </compound>
+  <compound refid="dir_9b203da08fc91911a822ff56df47fdc9" kind="dir"><name>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship</name>
+  </compound>
+  <compound refid="dir_5e4373d2905ce1e03b0d15f2047f0a8d" kind="dir"><name>C:/Users/ALIEN/Documents</name>
+  </compound>
+  <compound refid="dir_57cdacab48a25eb39a756b7057112055" kind="dir"><name>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1</name>
+  </compound>
+  <compound refid="dir_9ce391bf0ac96ed90a36fd2a9e8a29e1" kind="dir"><name>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on</name>
+  </compound>
+  <compound refid="dir_38f287064d790f4f2d1c11d0bd542454" kind="dir"><name>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

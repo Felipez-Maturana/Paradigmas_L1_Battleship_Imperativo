@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_ship" kind="struct" language="C++" prot="public">
+    <compoundname>Ship</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Largo</definition>
+        <argsstring></argsstring>
+        <name>Largo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="30" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="30" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+        <referencedby refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" compoundref="funciones_8c" startline="993" endline="1032">BarcoAtacado</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ancho</definition>
+        <argsstring></argsstring>
+        <name>Ancho</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="31" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Vida</definition>
+        <argsstring></argsstring>
+        <name>Vida</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="32" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="32" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TipoAtaque</definition>
+        <argsstring></argsstring>
+        <name>TipoAtaque</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="33" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="33" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+        <referencedby refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" compoundref="funciones_8c" startline="1176" endline="1238">AtaquesMasivos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char charBarco</definition>
+        <argsstring></argsstring>
+        <name>charBarco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="34" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="34" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" prot="public" static="no" mutable="no">
+        <type><ref refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kindref="member">Comandante</ref></type>
+        <definition>Comandante comandante</definition>
+        <argsstring></argsstring>
+        <name>comandante</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="35" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Defensa</definition>
+        <argsstring></argsstring>
+        <name>Defensa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="36" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</referencedby>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" prot="public" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int** PosicionesTablero</definition>
+        <argsstring></argsstring>
+        <name>PosicionesTablero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="37" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="37" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" compoundref="funciones_8c" startline="448" endline="796">putShip</referencedby>
+        <referencedby refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" compoundref="funciones_8c" startline="993" endline="1032">BarcoAtacado</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ship_1ab317681e869f6ab39667acc8d18e48b3" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_position" kindref="compound">Position</ref> *</type>
+        <definition>Position* PosicionTablero</definition>
+        <argsstring></argsstring>
+        <name>PosicionTablero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="38" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>Position</label>
+        <link refid="struct_position"/>
+      </node>
+      <node id="14">
+        <label>Ship</label>
+        <link refid="struct_ship"/>
+        <childnode refid="15" relation="usage">
+          <edgelabel>PosicionTablero</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="29" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="28" bodyend="39"/>
+    <listofallmembers>
+      <member refid="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" prot="public" virt="non-virtual"><scope>Ship</scope><name>Ancho</name></member>
+      <member refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" prot="public" virt="non-virtual"><scope>Ship</scope><name>charBarco</name></member>
+      <member refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" prot="public" virt="non-virtual"><scope>Ship</scope><name>comandante</name></member>
+      <member refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" prot="public" virt="non-virtual"><scope>Ship</scope><name>Defensa</name></member>
+      <member refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" prot="public" virt="non-virtual"><scope>Ship</scope><name>Largo</name></member>
+      <member refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" prot="public" virt="non-virtual"><scope>Ship</scope><name>PosicionesTablero</name></member>
+      <member refid="struct_ship_1ab317681e869f6ab39667acc8d18e48b3" prot="public" virt="non-virtual"><scope>Ship</scope><name>PosicionTablero</name></member>
+      <member refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" prot="public" virt="non-virtual"><scope>Ship</scope><name>TipoAtaque</name></member>
+      <member refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" prot="public" virt="non-virtual"><scope>Ship</scope><name>Vida</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

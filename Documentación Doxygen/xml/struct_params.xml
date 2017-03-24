@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_params" kind="struct" language="C++" prot="public">
+    <compoundname>Params</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_params_1a2018f305df5539257f296f8cabf55ffa" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* CantidadxTipoBarco</definition>
+        <argsstring></argsstring>
+        <name>CantidadxTipoBarco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="18" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a1c6878523e5a0460bdac9b23b0266c12" compoundref="funciones_8c" startline="399" endline="447">setParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_params_1a33e91e208e69c833cb1f04c86f371337" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Dificultad</definition>
+        <argsstring></argsstring>
+        <name>Dificultad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="19" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+        <referencedby refid="funciones_8h_1a1c6878523e5a0460bdac9b23b0266c12" compoundref="funciones_8c" startline="399" endline="447">setParams</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="17" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" prot="public" virt="non-virtual"><scope>Params</scope><name>CantidadxTipoBarco</name></member>
+      <member refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" prot="public" virt="non-virtual"><scope>Params</scope><name>Dificultad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

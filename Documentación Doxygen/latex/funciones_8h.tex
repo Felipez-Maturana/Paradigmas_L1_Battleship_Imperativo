@@ -1,0 +1,168 @@
+\section{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+AB 1/\+Battleship/src/funciones.h File Reference}
+\label{funciones_8h}\index{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+A\+B 1/\+Battleship/src/funciones.\+h@{C\+:/\+Users/\+A\+L\+I\+E\+N/\+Documents/\+Paradigmas de Programaci[on/\+L\+A\+B 1/\+Battleship/src/funciones.\+h}}
+{\ttfamily \#include \char`\"{}constants.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}structs.\+h\char`\"{}}\newline
+Include dependency graph for funciones.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Board} $\ast$ {\bf create\+Board} (int n, int m, {\bf Params} params, {\bf code} $\ast$status\+Code)
+\item 
+void {\bf print} ({\bf Board} $\ast$b, int show\+Complete, {\bf code} $\ast$status\+Code)
+\item 
+int {\bf check\+Board} ({\bf Board} $\ast$b, {\bf code} $\ast$status\+Code)
+\item 
+void {\bf save\+Board} ({\bf Board} $\ast$b, int $\ast$id, {\bf code} $\ast$status\+Code)
+\item 
+{\bf Board} $\ast$ {\bf load\+Board} (int id, {\bf code} $\ast$status\+Code)
+\item 
+void {\bf put\+Ship} ({\bf Board} $\ast$b, {\bf Position} p, {\bf Ship} s, {\bf code} $\ast$status\+Code)
+\item 
+int {\bf play} ({\bf Board} $\ast$b, {\bf Ship} $\ast$ship, {\bf Position} $\ast$p\+Array, {\bf code} $\ast$status\+Code)
+\item 
+{\bf Position} {\bf set\+Position} (int Fila, int Columna)
+\item 
+{\bf Ship} {\bf cfg\+Ships} (int Largo, int Ancho, int A\+T\+K\+Especial, char char\+Barco, int D\+EF)
+\item 
+int {\bf Barco\+Atacado} ({\bf Position} p, {\bf Comandante} comandante, {\bf Board} $\ast$b)
+\item 
+int $\ast$ {\bf generate\+ID} ()
+\item 
+{\bf Params} {\bf set\+Params} (int Dificultad, {\bf code} $\ast$status\+Code)
+\item 
+{\bf Position} $\ast$ {\bf Ataques\+Masivos} ({\bf Ship} s, {\bf Position} p, {\bf Board} $\ast$b)
+\item 
+void {\bf destroy\+Board} ({\bf Board} $\ast$$\ast$b)
+\item 
+int {\bf get\+Score} ({\bf Game} g)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\label{funciones_8h_a61dcba4f41ed411eb45956ed8b5c174b} 
+\index{funciones.\+h@{funciones.\+h}!Ataques\+Masivos@{Ataques\+Masivos}}
+\index{Ataques\+Masivos@{Ataques\+Masivos}!funciones.\+h@{funciones.\+h}}
+\subsubsection{Ataques\+Masivos()}
+{\footnotesize\ttfamily {\bf Position}$\ast$ Ataques\+Masivos (\begin{DoxyParamCaption}\item[{{\bf Ship}}]{s,  }\item[{{\bf Position}}]{p,  }\item[{{\bf Board} $\ast$}]{b }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 2
+Here is the caller graph for this function\+:
+% FIG 3
+\label{funciones_8h_a239d2a4d17c05ed3c75c7355fe010abb} 
+\index{funciones.\+h@{funciones.\+h}!Barco\+Atacado@{Barco\+Atacado}}
+\index{Barco\+Atacado@{Barco\+Atacado}!funciones.\+h@{funciones.\+h}}
+\subsubsection{Barco\+Atacado()}
+{\footnotesize\ttfamily int Barco\+Atacado (\begin{DoxyParamCaption}\item[{{\bf Position}}]{p,  }\item[{{\bf Comandante}}]{comandante,  }\item[{{\bf Board} $\ast$}]{b }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 4
+\label{funciones_8h_a3ff7ba459575ce6387fc046876832c56} 
+\index{funciones.\+h@{funciones.\+h}!cfg\+Ships@{cfg\+Ships}}
+\index{cfg\+Ships@{cfg\+Ships}!funciones.\+h@{funciones.\+h}}
+\subsubsection{cfg\+Ships()}
+{\footnotesize\ttfamily {\bf Ship} cfg\+Ships (\begin{DoxyParamCaption}\item[{int}]{Largo,  }\item[{int}]{Ancho,  }\item[{int}]{A\+T\+K\+Especial,  }\item[{char}]{char\+Barco,  }\item[{int}]{D\+EF }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 5
+\label{funciones_8h_a2ba9e38caf8780cd911190db47e91981} 
+\index{funciones.\+h@{funciones.\+h}!check\+Board@{check\+Board}}
+\index{check\+Board@{check\+Board}!funciones.\+h@{funciones.\+h}}
+\subsubsection{check\+Board()}
+{\footnotesize\ttfamily int check\+Board (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$}]{b,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 6
+\label{funciones_8h_aa971770733231651e7c3e68530aa5563} 
+\index{funciones.\+h@{funciones.\+h}!create\+Board@{create\+Board}}
+\index{create\+Board@{create\+Board}!funciones.\+h@{funciones.\+h}}
+\subsubsection{create\+Board()}
+{\footnotesize\ttfamily {\bf Board}$\ast$ create\+Board (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{int}]{m,  }\item[{{\bf Params}}]{params,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 7
+Here is the caller graph for this function\+:
+% FIG 8
+\label{funciones_8h_a87582dd6476bdbcd4c9dab6c371a0ef9} 
+\index{funciones.\+h@{funciones.\+h}!destroy\+Board@{destroy\+Board}}
+\index{destroy\+Board@{destroy\+Board}!funciones.\+h@{funciones.\+h}}
+\subsubsection{destroy\+Board()}
+{\footnotesize\ttfamily void destroy\+Board (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$$\ast$}]{b }\end{DoxyParamCaption})}
+
+\label{funciones_8h_a76eb46ff45a6b9a08d6e52d92302cce9} 
+\index{funciones.\+h@{funciones.\+h}!generate\+ID@{generate\+ID}}
+\index{generate\+ID@{generate\+ID}!funciones.\+h@{funciones.\+h}}
+\subsubsection{generate\+I\+D()}
+{\footnotesize\ttfamily int$\ast$ generate\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 9
+\label{funciones_8h_a150dfb9de666aa3178ab5efd7422fe27} 
+\index{funciones.\+h@{funciones.\+h}!get\+Score@{get\+Score}}
+\index{get\+Score@{get\+Score}!funciones.\+h@{funciones.\+h}}
+\subsubsection{get\+Score()}
+{\footnotesize\ttfamily int get\+Score (\begin{DoxyParamCaption}\item[{{\bf Game}}]{g }\end{DoxyParamCaption})}
+
+\label{funciones_8h_a0ff3822d75e160b1f73eb734a175f99a} 
+\index{funciones.\+h@{funciones.\+h}!load\+Board@{load\+Board}}
+\index{load\+Board@{load\+Board}!funciones.\+h@{funciones.\+h}}
+\subsubsection{load\+Board()}
+{\footnotesize\ttfamily {\bf Board}$\ast$ load\+Board (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 10
+Here is the caller graph for this function\+:
+% FIG 11
+\label{funciones_8h_a6400036d175afce2372bc6bdd454b7f9} 
+\index{funciones.\+h@{funciones.\+h}!play@{play}}
+\index{play@{play}!funciones.\+h@{funciones.\+h}}
+\subsubsection{play()}
+{\footnotesize\ttfamily int play (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$}]{b,  }\item[{{\bf Ship} $\ast$}]{ship,  }\item[{{\bf Position} $\ast$}]{p\+Array,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+% FIG 12
+Here is the caller graph for this function\+:
+% FIG 13
+\label{funciones_8h_acf7fb2d72d56ba30e1956c8e05247ce7} 
+\index{funciones.\+h@{funciones.\+h}!print@{print}}
+\index{print@{print}!funciones.\+h@{funciones.\+h}}
+\subsubsection{print()}
+{\footnotesize\ttfamily void print (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$}]{b,  }\item[{int}]{show\+Complete,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 14
+\label{funciones_8h_a601ceec2c364cd451fa0743194104a99} 
+\index{funciones.\+h@{funciones.\+h}!put\+Ship@{put\+Ship}}
+\index{put\+Ship@{put\+Ship}!funciones.\+h@{funciones.\+h}}
+\subsubsection{put\+Ship()}
+{\footnotesize\ttfamily void put\+Ship (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$}]{b,  }\item[{{\bf Position}}]{p,  }\item[{{\bf Ship}}]{s,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 15
+\label{funciones_8h_a61cc12ef0ad979f7dbd81c62f0bfffd8} 
+\index{funciones.\+h@{funciones.\+h}!save\+Board@{save\+Board}}
+\index{save\+Board@{save\+Board}!funciones.\+h@{funciones.\+h}}
+\subsubsection{save\+Board()}
+{\footnotesize\ttfamily void save\+Board (\begin{DoxyParamCaption}\item[{{\bf Board} $\ast$}]{b,  }\item[{int $\ast$}]{id,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 16
+\label{funciones_8h_a1c6878523e5a0460bdac9b23b0266c12} 
+\index{funciones.\+h@{funciones.\+h}!set\+Params@{set\+Params}}
+\index{set\+Params@{set\+Params}!funciones.\+h@{funciones.\+h}}
+\subsubsection{set\+Params()}
+{\footnotesize\ttfamily {\bf Params} set\+Params (\begin{DoxyParamCaption}\item[{int}]{Dificultad,  }\item[{{\bf code} $\ast$}]{status\+Code }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 17
+\label{funciones_8h_a85f21b3597c4c3b3622a26ad6f249411} 
+\index{funciones.\+h@{funciones.\+h}!set\+Position@{set\+Position}}
+\index{set\+Position@{set\+Position}!funciones.\+h@{funciones.\+h}}
+\subsubsection{set\+Position()}
+{\footnotesize\ttfamily {\bf Position} set\+Position (\begin{DoxyParamCaption}\item[{int}]{Fila,  }\item[{int}]{Columna }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+% FIG 18

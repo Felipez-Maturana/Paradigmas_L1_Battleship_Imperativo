@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structs_8h" kind="file" language="C++">
+    <compoundname>structs.h</compoundname>
+    <includes refid="constants_8h" local="yes">constants.h</includes>
+    <includedby refid="funciones_8h" local="yes">C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h</includedby>
+    <includedby refid="_battleship_8c" local="yes">C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/Battleship.c</includedby>
+    <includedby refid="funciones_8c" local="yes">C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c</includedby>
+    <incdepgraph>
+      <node id="27">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h</label>
+        <link refid="structs_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>constants.h</label>
+        <link refid="constants_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="31">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/Battleship.c</label>
+        <link refid="_battleship_8c"/>
+      </node>
+      <node id="29">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h</label>
+        <link refid="structs_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c</label>
+        <link refid="funciones_8c"/>
+      </node>
+      <node id="30">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h</label>
+        <link refid="funciones_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_params" prot="public">Params</innerclass>
+    <innerclass refid="struct_position" prot="public">Position</innerclass>
+    <innerclass refid="struct_ship" prot="public">Ship</innerclass>
+    <innerclass refid="struct_board" prot="public">Board</innerclass>
+    <innerclass refid="struct_game" prot="public">Game</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">para<sp/>evitar<sp/>duplicidad<sp/>producto<sp/>de<sp/>la</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">inclusión<sp/>de<sp/>archivos<sp/>de<sp/>encabezados</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">desde<sp/>distintas<sp/>fuentes<sp/>que<sp/>den<sp/>lugar</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">errores<sp/>durante<sp/>el<sp/>proceso<sp/>de<sp/>compilacion</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">se<sp/>deben<sp/>especificar<sp/>las<sp/>directivas<sp/>de<sp/>compilacion<sp/>#ifndef<sp/>y<sp/>#endif<sp/>como</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">se<sp/>ilustra<sp/>en<sp/>el<sp/>ejemplo.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">A<sp/>través<sp/>de<sp/>define<sp/>se<sp/>establece<sp/>un<sp/>identificador.<sp/>ifndef<sp/>verifica<sp/>que<sp/>este</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">no<sp/>haya<sp/>sido<sp/>definido<sp/>producto<sp/>de<sp/>la<sp/>inclusión<sp/>desde<sp/>otra<sp/>fuente</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="constants_8h" kindref="compound">constants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_STRUCTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_STRUCTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="struct_params" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/><ref refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" kindref="member">CantidadxTipoBarco</ref>;<sp/></highlight><highlight class="comment">//<sp/>0,<sp/>normal;<sp/>1,<sp/>Acorazado;<sp/>2,<sp/>PortaAviones;<sp/>3,<sp/>Submarino;<sp/>4,<sp/>BuquePirata;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" kindref="member">Dificultad</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="struct_params" kindref="compound">Params</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="struct_position" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" kindref="member">Fila</ref>;</highlight></codeline>
+<codeline lineno="25" refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" kindref="member">Columna</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}<sp/><ref refid="struct_position" kindref="compound">Position</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="struct_ship" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ex.<sp/>Normal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" kindref="member">Largo</ref>;<sp/></highlight><highlight class="comment">//<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" kindref="member">Ancho</ref>;</highlight><highlight class="comment">//<sp/>1<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" kindref="member">Vida</ref>;</highlight></codeline>
+<codeline lineno="33" refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" kindref="member">TipoAtaque</ref>;<sp/></highlight><highlight class="comment">//<sp/>0<sp/>NO<sp/>TIENE<sp/>ATAQUE<sp/>ESPECIAL.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" kindref="member">charBarco</ref>;</highlight></codeline>
+<codeline lineno="35" refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kindref="member">Comandante</ref><sp/><ref refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" kindref="member">comandante</ref>;</highlight></codeline>
+<codeline lineno="36" refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" kindref="member">Defensa</ref>;<sp/></highlight><highlight class="comment">//0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<sp/><ref refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" kindref="member">PosicionesTablero</ref>;</highlight></codeline>
+<codeline lineno="38" refid="struct_ship_1ab317681e869f6ab39667acc8d18e48b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_position" kindref="compound">Position</ref><sp/>*<sp/><ref refid="struct_ship_1ab317681e869f6ab39667acc8d18e48b3" kindref="member">PosicionTablero</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}<sp/><ref refid="struct_ship" kindref="compound">Ship</ref>;</highlight></codeline>
+<codeline lineno="40" refid="struct_board" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42" refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" kindref="member">matriz</ref>;</highlight></codeline>
+<codeline lineno="43" refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" kindref="member">n</ref>;</highlight></codeline>
+<codeline lineno="44" refid="struct_board_1a742204794ea328ba293fe59cec79b990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1a742204794ea328ba293fe59cec79b990" kindref="member">m</ref>;</highlight></codeline>
+<codeline lineno="45" refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" kindref="member">Dificultad</ref>;</highlight></codeline>
+<codeline lineno="46" refid="struct_board_1a1f004d7e9bf005e7cea3845268f11045" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5c" kindref="member">pieza</ref><sp/><ref refid="struct_board_1a1f004d7e9bf005e7cea3845268f11045" kindref="member">lastPlayer</ref>;</highlight></codeline>
+<codeline lineno="47" refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" kindref="member">BarcosEnemigos</ref>;</highlight></codeline>
+<codeline lineno="48" refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" kindref="member">BarcosJugador</ref>;</highlight></codeline>
+<codeline lineno="49" refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" kindref="member">ActualBarcosEnemigos</ref>;</highlight></codeline>
+<codeline lineno="50" refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" kindref="member">ActualBarcosJugador</ref>;</highlight></codeline>
+<codeline lineno="51" refid="struct_board_1ad607508d45f757dbbdc5ecf00c0d8914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct_board_1ad607508d45f757dbbdc5ecf00c0d8914" kindref="member">JuegoFinalizado</ref>;</highlight></codeline>
+<codeline lineno="52" refid="struct_board_1a5e46f00fda855006138e8ff65f396dc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kindref="member">Comandante</ref><sp/><ref refid="struct_board_1a5e46f00fda855006138e8ff65f396dc5" kindref="member">UltimoJugador</ref>;</highlight></codeline>
+<codeline lineno="53" refid="struct_board_1ae46a086677666832abca3fdc41d463ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_ship" kindref="compound">Ship</ref><sp/>*<sp/><ref refid="struct_board_1ae46a086677666832abca3fdc41d463ea" kindref="member">Enemigos</ref>;</highlight></codeline>
+<codeline lineno="54" refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_ship" kindref="compound">Ship</ref><sp/>*<sp/><ref refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" kindref="member">Jugador</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}<sp/><ref refid="struct_board" kindref="compound">Board</ref>;</highlight></codeline>
+<codeline lineno="56" refid="struct_game" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58" refid="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_board" kindref="compound">Board</ref><sp/><ref refid="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" kindref="member">board</ref>;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}<sp/><ref refid="struct_game" kindref="compound">Game</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h"/>
+  </compounddef>
+</doxygen>

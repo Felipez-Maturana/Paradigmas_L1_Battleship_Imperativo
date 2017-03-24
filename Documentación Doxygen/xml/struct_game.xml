@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_game" kind="struct" language="C++" prot="public">
+    <compoundname>Game</compoundname>
+    <includes refid="structs_8h" local="no">structs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_board" kindref="compound">Board</ref></type>
+        <definition>Board board</definition>
+        <argsstring></argsstring>
+        <name>board</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="58" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="funciones_8h_1a150dfb9de666aa3178ab5efd7422fe27" compoundref="funciones_8c" startline="1240" endline="1252">getScore</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>Position</label>
+        <link refid="struct_position"/>
+      </node>
+      <node id="7">
+        <label>Ship</label>
+        <link refid="struct_ship"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>PosicionTablero</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Game</label>
+        <link refid="struct_game"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>board</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Board</label>
+        <link refid="struct_board"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>Enemigos</edgelabel>
+          <edgelabel>Jugador</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" line="57" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/structs.h" bodystart="56" bodyend="59"/>
+    <listofallmembers>
+      <member refid="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" prot="public" virt="non-virtual"><scope>Game</scope><name>board</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="funciones_8h" kind="file" language="C++">
+    <compoundname>funciones.h</compoundname>
+    <includes refid="constants_8h" local="yes">constants.h</includes>
+    <includes refid="structs_8h" local="yes">structs.h</includes>
+    <includedby refid="_battleship_8c" local="yes">C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/Battleship.c</includedby>
+    <includedby refid="funciones_8c" local="yes">C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>structs.h</label>
+        <link refid="structs_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h</label>
+        <link refid="funciones_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>constants.h</label>
+        <link refid="constants_8h"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="25">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/Battleship.c</label>
+        <link refid="_battleship_8c"/>
+      </node>
+      <node id="26">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c</label>
+        <link refid="funciones_8c"/>
+      </node>
+      <node id="24">
+        <label>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h</label>
+        <link refid="funciones_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="funciones_8h_1aa971770733231651e7c3e68530aa5563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+        <definition>Board* createBoard</definition>
+        <argsstring>(int n, int m, Params params, code *statusCode)</argsstring>
+        <name>createBoard</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_params" kindref="compound">Params</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="7" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="8" bodyend="306"/>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" compoundref="structs_8h" startline="42">Board::matriz</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2fa3114dc11f3a0dbfc8f2a3d141e2da" compoundref="constants_8h" startline="7">NOT_ENOUGH_MEMORY</references>
+        <references refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" compoundref="structs_8h" startline="37">Ship::PosicionesTablero</references>
+        <references refid="struct_board_1ae46a086677666832abca3fdc41d463ea" compoundref="structs_8h" startline="53">Board::Enemigos</references>
+        <references refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" compoundref="structs_8h" startline="47">Board::BarcosEnemigos</references>
+        <references refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" compoundref="structs_8h" startline="49">Board::ActualBarcosEnemigos</references>
+        <references refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" compoundref="structs_8h" startline="18">Params::CantidadxTipoBarco</references>
+        <references refid="funciones_8c_1a3ff7ba459575ce6387fc046876832c56" compoundref="funciones_8c" startline="798" endline="809">cfgShips</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca2c63acbe79d9f41ba6bb7766e9c37702" compoundref="constants_8h" startline="4">N</references>
+        <references refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" compoundref="structs_8h" startline="35">Ship::comandante</references>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760ab199e021998d49b1f09338d8b9b18ecb" compoundref="constants_8h" startline="5">E</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca42a4ade1acd55a49164099104990e09f" compoundref="constants_8h" startline="4">A</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca82f05f38f6a17b117cdd2b83227912c6" compoundref="constants_8h" startline="4">P</references>
+        <references refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" compoundref="structs_8h" startline="33">Ship::TipoAtaque</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5caf1ce01387d2348f8b858721a7db81670" compoundref="constants_8h" startline="4">S</references>
+        <references refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" compoundref="structs_8h" startline="30">Ship::Largo</references>
+        <references refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="45">Board::Dificultad</references>
+        <references refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="19">Params::Dificultad</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" compoundref="structs_8h" startline="48">Board::BarcosJugador</references>
+        <references refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" compoundref="structs_8h" startline="50">Board::ActualBarcosJugador</references>
+        <references refid="struct_board_1ad607508d45f757dbbdc5ecf00c0d8914" compoundref="structs_8h" startline="51">Board::JuegoFinalizado</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ad8aa5eba4ae8987e8b813fd0545fcfaa" compoundref="constants_8h" startline="7">WRONG_DIM</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+        <referencedby refid="funciones_8h_1a0ff3822d75e160b1f73eb734a175f99a" compoundref="funciones_8c" startline="1064" endline="1115">loadBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1acf7fb2d72d56ba30e1956c8e05247ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print</definition>
+        <argsstring>(Board *b, int showComplete, code *statusCode)</argsstring>
+        <name>print</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>showComplete</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="8" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="308" bodyend="380"/>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" compoundref="structs_8h" startline="42">Board::matriz</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a546a32e8994e1b6b71cd01afd557b36c" compoundref="constants_8h" startline="7">BOARD_NOT_FOUND</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a2ba9e38caf8780cd911190db47e91981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int checkBoard</definition>
+        <argsstring>(Board *b, code *statusCode)</argsstring>
+        <name>checkBoard</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="9" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1129" bodyend="1174"/>
+        <references refid="constants_8h_1af6a258d8f3ee5206d682d799316314b1aa82764c3079aea4e60c80e45befbb839" compoundref="constants_8h" startline="6">TRUE</references>
+        <references refid="constants_8h_1af6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a" compoundref="constants_8h" startline="6">FALSE</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a546a32e8994e1b6b71cd01afd557b36c" compoundref="constants_8h" startline="7">BOARD_NOT_FOUND</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ad8aa5eba4ae8987e8b813fd0545fcfaa" compoundref="constants_8h" startline="7">WRONG_DIM</references>
+        <references refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="45">Board::Dificultad</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a32e59aaef2390122911fd0355259a5ce" compoundref="constants_8h" startline="7">WRONG_DIFFICULTY</references>
+        <references refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" compoundref="structs_8h" startline="47">Board::BarcosEnemigos</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a18539d2d73c87494714e8b37d002b66e" compoundref="constants_8h" startline="7">IMPOSSIBLE_VALID_BOARD</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a61cc12ef0ad979f7dbd81c62f0bfffd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void saveBoard</definition>
+        <argsstring>(Board *b, int *id, code *statusCode)</argsstring>
+        <name>saveBoard</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="10" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1034" bodyend="1063"/>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="45">Board::Dificultad</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a53bb06e71332bfaa4c5783728a3662bb" compoundref="constants_8h" startline="7">ERROR_FILE_NOT_PERM</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a546a32e8994e1b6b71cd01afd557b36c" compoundref="constants_8h" startline="7">BOARD_NOT_FOUND</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a0ff3822d75e160b1f73eb734a175f99a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+        <definition>Board* loadBoard</definition>
+        <argsstring>(int id, code *statusCode)</argsstring>
+        <name>loadBoard</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="11" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1064" bodyend="1115"/>
+        <references refid="funciones_8c_1a1c6878523e5a0460bdac9b23b0266c12" compoundref="funciones_8c" startline="399" endline="447">setParams</references>
+        <references refid="funciones_8c_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683acda5537053ae99f6436b353a46571f63" compoundref="constants_8h" startline="7">ERROR_ID_NOT_FOUND</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a53bb06e71332bfaa4c5783728a3662bb" compoundref="constants_8h" startline="7">ERROR_FILE_NOT_PERM</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a601ceec2c364cd451fa0743194104a99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void putShip</definition>
+        <argsstring>(Board *b, Position p, Ship s, code *statusCode)</argsstring>
+        <name>putShip</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_position" kindref="compound">Position</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_ship" kindref="compound">Ship</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="12" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="448" bodyend="796"/>
+        <references refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" compoundref="structs_8h" startline="35">Ship::comandante</references>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760a03605500b0c55f3d95874e8edfcf4e30" compoundref="constants_8h" startline="5">J</references>
+        <references refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" compoundref="structs_8h" startline="37">Ship::PosicionesTablero</references>
+        <references refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" compoundref="structs_8h" startline="47">Board::BarcosEnemigos</references>
+        <references refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" compoundref="structs_8h" startline="48">Board::BarcosJugador</references>
+        <references refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" compoundref="structs_8h" startline="54">Board::Jugador</references>
+        <references refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" compoundref="structs_8h" startline="24">Position::Fila</references>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" compoundref="structs_8h" startline="25">Position::Columna</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" compoundref="structs_8h" startline="42">Board::matriz</references>
+        <references refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" compoundref="structs_8h" startline="30">Ship::Largo</references>
+        <references refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" compoundref="structs_8h" startline="34">Ship::charBarco</references>
+        <references refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" compoundref="structs_8h" startline="50">Board::ActualBarcosJugador</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a7fc4f05d14e74db10fcb8f6b7c253fab" compoundref="constants_8h" startline="7">PUT_ERROR_OCUPPED</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ad8aa5eba4ae8987e8b813fd0545fcfaa" compoundref="constants_8h" startline="7">WRONG_DIM</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a914fdb64aa98592cbbc83ef20644383d" compoundref="constants_8h" startline="7">ERROR_MAX_SHIP_REACHED</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a546a32e8994e1b6b71cd01afd557b36c" compoundref="constants_8h" startline="7">BOARD_NOT_FOUND</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int play</definition>
+        <argsstring>(Board *b, Ship *ship, Position *pArray, code *statusCode)</argsstring>
+        <name>play</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_ship" kindref="compound">Ship</ref> *</type>
+          <declname>ship</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_position" kindref="compound">Position</ref> *</type>
+          <declname>pArray</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="13" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="819" bodyend="991"/>
+        <references refid="struct_board_1a5e46f00fda855006138e8ff65f396dc5" compoundref="structs_8h" startline="52">Board::UltimoJugador</references>
+        <references refid="struct_ship_1aa19f185a0eb2ff531575ce56e7339dd4" compoundref="structs_8h" startline="35">Ship::comandante</references>
+        <references refid="struct_board_1ad607508d45f757dbbdc5ecf00c0d8914" compoundref="structs_8h" startline="51">Board::JuegoFinalizado</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a51e281a6150aebba05dd0622250aaa4b" compoundref="constants_8h" startline="7">ERROR_GAME_FINALIZED</references>
+        <references refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" compoundref="structs_8h" startline="24">Position::Fila</references>
+        <references refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" compoundref="structs_8h" startline="42">Board::matriz</references>
+        <references refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" compoundref="structs_8h" startline="25">Position::Columna</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca2c63acbe79d9f41ba6bb7766e9c37702" compoundref="constants_8h" startline="4">N</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca42a4ade1acd55a49164099104990e09f" compoundref="constants_8h" startline="4">A</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca82f05f38f6a17b117cdd2b83227912c6" compoundref="constants_8h" startline="4">P</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5caf1ce01387d2348f8b858721a7db81670" compoundref="constants_8h" startline="4">S</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca3f2a77ecd272aa6d6b5902faa5e5fc68" compoundref="constants_8h" startline="4">B</references>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760a03605500b0c55f3d95874e8edfcf4e30" compoundref="constants_8h" startline="5">J</references>
+        <references refid="funciones_8c_1a239d2a4d17c05ed3c75c7355fe010abb" compoundref="funciones_8c" startline="993" endline="1032">BarcoAtacado</references>
+        <references refid="struct_board_1ae46a086677666832abca3fdc41d463ea" compoundref="structs_8h" startline="53">Board::Enemigos</references>
+        <references refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" compoundref="structs_8h" startline="36">Ship::Defensa</references>
+        <references refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" compoundref="structs_8h" startline="32">Ship::Vida</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5ca58833a3110c570fb05130d40c365d1e4" compoundref="constants_8h" startline="4">X</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2bc49ec37d6a5715dd23e85f1ff5bb59" compoundref="constants_8h" startline="7">OK</references>
+        <references refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" compoundref="structs_8h" startline="49">Board::ActualBarcosEnemigos</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5caf4b8b7698dfedf5562a7db2bdb07010a" compoundref="constants_8h" startline="4">O</references>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760ab199e021998d49b1f09338d8b9b18ecb" compoundref="constants_8h" startline="5">E</references>
+        <references refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" compoundref="structs_8h" startline="54">Board::Jugador</references>
+        <references refid="struct_board_1aa32126699bfb67b5af93fa1e264a6855" compoundref="structs_8h" startline="50">Board::ActualBarcosJugador</references>
+        <references refid="constants_8h_1a25ac8ec24f72cce8d0ee7f19f2b1ab5cab722ceeb601c72cd78fbd35f3581fdf7" compoundref="constants_8h" startline="4">W</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683ad8aa5eba4ae8987e8b813fd0545fcfaa" compoundref="constants_8h" startline="7">WRONG_DIM</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a2fd6f336d08340583bd620a7f5694c90" compoundref="constants_8h" startline="7">ERROR</references>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683adfb49b4615e618ba68c6f0666ac90fa3" compoundref="constants_8h" startline="7">ERROR_ITS_NOT_YOUR_TURN</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a85f21b3597c4c3b3622a26ad6f249411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_position" kindref="compound">Position</ref></type>
+        <definition>Position setPosition</definition>
+        <argsstring>(int Fila, int Columna)</argsstring>
+        <name>setPosition</name>
+        <param>
+          <type>int</type>
+          <declname>Fila</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Columna</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="15" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="811" bodyend="817"/>
+        <references refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" compoundref="structs_8h" startline="24">Position::Fila</references>
+        <references refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" compoundref="structs_8h" startline="25">Position::Columna</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+        <referencedby refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" compoundref="funciones_8c" startline="1176" endline="1238">AtaquesMasivos</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ship" kindref="compound">Ship</ref></type>
+        <definition>Ship cfgShips</definition>
+        <argsstring>(int Largo, int Ancho, int ATKEspecial, char charBarco, int DEF)</argsstring>
+        <name>cfgShips</name>
+        <param>
+          <type>int</type>
+          <declname>Largo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Ancho</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ATKEspecial</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>charBarco</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>DEF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="16" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="798" bodyend="809"/>
+        <references refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" compoundref="structs_8h" startline="30">Ship::Largo</references>
+        <references refid="struct_ship_1ab15bf34d1cb7004823197e308b1277bb" compoundref="structs_8h" startline="31">Ship::Ancho</references>
+        <references refid="struct_ship_1a0841c27ae19b663ca0657b811a9cafa7" compoundref="structs_8h" startline="32">Ship::Vida</references>
+        <references refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" compoundref="structs_8h" startline="33">Ship::TipoAtaque</references>
+        <references refid="struct_ship_1a503bbde9d1d5ec12340431e1d01b6c0e" compoundref="structs_8h" startline="34">Ship::charBarco</references>
+        <references refid="struct_ship_1ac3b0b433e1068211fccdf5735e5fc774" compoundref="structs_8h" startline="36">Ship::Defensa</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+        <referencedby refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" compoundref="funciones_8c" startline="8" endline="306">createBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int BarcoAtacado</definition>
+        <argsstring>(Position p, Comandante comandante, Board *b)</argsstring>
+        <name>BarcoAtacado</name>
+        <param>
+          <type><ref refid="struct_position" kindref="compound">Position</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kindref="member">Comandante</ref></type>
+          <declname>comandante</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="17" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="993" bodyend="1032"/>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760a03605500b0c55f3d95874e8edfcf4e30" compoundref="constants_8h" startline="5">J</references>
+        <references refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" compoundref="structs_8h" startline="47">Board::BarcosEnemigos</references>
+        <references refid="struct_board_1ae46a086677666832abca3fdc41d463ea" compoundref="structs_8h" startline="53">Board::Enemigos</references>
+        <references refid="struct_ship_1a4eebc7aa4a2fda198301dd0846817886" compoundref="structs_8h" startline="30">Ship::Largo</references>
+        <references refid="struct_ship_1a69af89b7958264af53ca17e3bfccc05b" compoundref="structs_8h" startline="37">Ship::PosicionesTablero</references>
+        <references refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" compoundref="structs_8h" startline="24">Position::Fila</references>
+        <references refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" compoundref="structs_8h" startline="25">Position::Columna</references>
+        <references refid="constants_8h_1a6ba34ace324253d5b25978371834f760ab199e021998d49b1f09338d8b9b18ecb" compoundref="constants_8h" startline="5">E</references>
+        <references refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" compoundref="structs_8h" startline="48">Board::BarcosJugador</references>
+        <references refid="struct_board_1aecaa9350d2cb95844ec688b8e76b7da6" compoundref="structs_8h" startline="54">Board::Jugador</references>
+        <referencedby refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" compoundref="funciones_8c" startline="819" endline="991">play</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a76eb46ff45a6b9a08d6e52d92302cce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int *</type>
+        <definition>int* generateID</definition>
+        <argsstring>()</argsstring>
+        <name>generateID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="18" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1117" bodyend="1127"/>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a1c6878523e5a0460bdac9b23b0266c12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_params" kindref="compound">Params</ref></type>
+        <definition>Params setParams</definition>
+        <argsstring>(int Dificultad, code *statusCode)</argsstring>
+        <name>setParams</name>
+        <param>
+          <type>int</type>
+          <declname>Dificultad</declname>
+        </param>
+        <param>
+          <type><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref> *</type>
+          <declname>statusCode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="19" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="399" bodyend="447"/>
+        <references refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683a32e59aaef2390122911fd0355259a5ce" compoundref="constants_8h" startline="7">WRONG_DIFFICULTY</references>
+        <references refid="struct_params_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="19">Params::Dificultad</references>
+        <references refid="struct_params_1a2018f305df5539257f296f8cabf55ffa" compoundref="structs_8h" startline="18">Params::CantidadxTipoBarco</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+        <referencedby refid="funciones_8h_1a0ff3822d75e160b1f73eb734a175f99a" compoundref="funciones_8c" startline="1064" endline="1115">loadBoard</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_position" kindref="compound">Position</ref> *</type>
+        <definition>Position* AtaquesMasivos</definition>
+        <argsstring>(Ship s, Position p, Board *b)</argsstring>
+        <name>AtaquesMasivos</name>
+        <param>
+          <type><ref refid="struct_ship" kindref="compound">Ship</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_position" kindref="compound">Position</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="20" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1176" bodyend="1238"/>
+        <references refid="struct_board_1a76f11d9a0a47b94f72c2d0e77fb32240" compoundref="structs_8h" startline="43">Board::n</references>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_ship_1aba97513f0f32e712f1e00c178c5dece5" compoundref="structs_8h" startline="33">Ship::TipoAtaque</references>
+        <references refid="funciones_8c_1a85f21b3597c4c3b3622a26ad6f249411" compoundref="funciones_8c" startline="811" endline="817">setPosition</references>
+        <references refid="struct_position_1a37bb2663aeb061eb0077e632fda7ce83" compoundref="structs_8h" startline="24">Position::Fila</references>
+        <references refid="struct_position_1ac586570d8b2c7b26ff9eab744dbba342" compoundref="structs_8h" startline="25">Position::Columna</references>
+        <referencedby refid="_battleship_8c_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_battleship_8c" startline="8" endline="435">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a87582dd6476bdbcd4c9dab6c371a0ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void destroyBoard</definition>
+        <argsstring>(Board **b)</argsstring>
+        <name>destroyBoard</name>
+        <param>
+          <type><ref refid="struct_board" kindref="compound">Board</ref> **</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="21" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="381" bodyend="397"/>
+        <references refid="struct_board_1a742204794ea328ba293fe59cec79b990" compoundref="structs_8h" startline="44">Board::m</references>
+        <references refid="struct_board_1ad92c7212b6b057929b2079f4f0bc4811" compoundref="structs_8h" startline="42">Board::matriz</references>
+      </memberdef>
+      <memberdef kind="function" id="funciones_8h_1a150dfb9de666aa3178ab5efd7422fe27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int getScore</definition>
+        <argsstring>(Game g)</argsstring>
+        <name>getScore</name>
+        <param>
+          <type><ref refid="struct_game" kindref="compound">Game</ref></type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h" line="22" column="1" bodyfile="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.c" bodystart="1240" bodyend="1252"/>
+        <references refid="struct_game_1aa82ec2ef46b7f2f6b838b07403015cee" compoundref="structs_8h" startline="58">Game::board</references>
+        <references refid="struct_board_1ac2241783b723066e28738dd0cbb2624e" compoundref="structs_8h" startline="48">Board::BarcosJugador</references>
+        <references refid="struct_board_1a5e5259bb1e509797d3ab3e435b14d17f" compoundref="structs_8h" startline="47">Board::BarcosEnemigos</references>
+        <references refid="struct_board_1a54f0d317ca8ea0658952b3e4587dc7ea" compoundref="structs_8h" startline="49">Board::ActualBarcosEnemigos</references>
+        <references refid="struct_board_1a33e91e208e69c833cb1f04c86f371337" compoundref="structs_8h" startline="45">Board::Dificultad</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="constants_8h" kindref="compound">constants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="structs_8h" kindref="compound">structs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_FUNCIONES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FUNCIONES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><ref refid="struct_board" kindref="compound">Board</ref>*<sp/><ref refid="funciones_8h_1aa971770733231651e7c3e68530aa5563" kindref="member">createBoard</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m,<sp/><ref refid="struct_params" kindref="compound">Params</ref><sp/>params,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1acf7fb2d72d56ba30e1956c8e05247ce7" kindref="member">print</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>*b,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>showComplete,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a2ba9e38caf8780cd911190db47e91981" kindref="member">checkBoard</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>*<sp/>b,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a61cc12ef0ad979f7dbd81c62f0bfffd8" kindref="member">saveBoard</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="struct_board" kindref="compound">Board</ref><sp/>*<sp/><ref refid="funciones_8h_1a0ff3822d75e160b1f73eb734a175f99a" kindref="member">loadBoard</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*<sp/>statusCode);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a601ceec2c364cd451fa0743194104a99" kindref="member">putShip</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>*b,<sp/><ref refid="struct_position" kindref="compound">Position</ref><sp/>p,<sp/><ref refid="struct_ship" kindref="compound">Ship</ref><sp/>s,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a6400036d175afce2372bc6bdd454b7f9" kindref="member">play</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>*b,<sp/><ref refid="struct_ship" kindref="compound">Ship</ref><sp/>*<sp/>ship,<ref refid="struct_position" kindref="compound">Position</ref><sp/>*<sp/>pArray,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><ref refid="struct_position" kindref="compound">Position</ref><sp/><ref refid="funciones_8h_1a85f21b3597c4c3b3622a26ad6f249411" kindref="member">setPosition</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Fila,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Columna);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="struct_ship" kindref="compound">Ship</ref><sp/><ref refid="funciones_8h_1a3ff7ba459575ce6387fc046876832c56" kindref="member">cfgShips</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Largo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Ancho,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ATKEspecial,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>charBarco,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>DEF);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a239d2a4d17c05ed3c75c7355fe010abb" kindref="member">BarcoAtacado</ref>(<ref refid="struct_position" kindref="compound">Position</ref><sp/>p,<sp/><ref refid="constants_8h_1a6ba34ace324253d5b25978371834f760" kindref="member">Comandante</ref><sp/>comandante,<sp/><ref refid="struct_board" kindref="compound">Board</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<sp/><ref refid="funciones_8h_1a76eb46ff45a6b9a08d6e52d92302cce9" kindref="member">generateID</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="struct_params" kindref="compound">Params</ref><sp/><ref refid="funciones_8h_1a1c6878523e5a0460bdac9b23b0266c12" kindref="member">setParams</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Dificultad,<sp/><ref refid="constants_8h_1afb9ed1b8a27eb20854efe6e23e297683" kindref="member">code</ref><sp/>*statusCode);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="struct_position" kindref="compound">Position</ref><sp/>*<sp/><ref refid="funciones_8h_1a61dcba4f41ed411eb45956ed8b5c174b" kindref="member">AtaquesMasivos</ref>(<ref refid="struct_ship" kindref="compound">Ship</ref><sp/>s,<sp/><ref refid="struct_position" kindref="compound">Position</ref><sp/>p,<ref refid="struct_board" kindref="compound">Board</ref><sp/>*<sp/>b);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a87582dd6476bdbcd4c9dab6c371a0ef9" kindref="member">destroyBoard</ref>(<ref refid="struct_board" kindref="compound">Board</ref><sp/>**b);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="funciones_8h_1a150dfb9de666aa3178ab5efd7422fe27" kindref="member">getScore</ref>(<ref refid="struct_game" kindref="compound">Game</ref><sp/>g);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/funciones.h"/>
+  </compounddef>
+</doxygen>

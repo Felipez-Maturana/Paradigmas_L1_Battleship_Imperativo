@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_38f287064d790f4f2d1c11d0bd542454" kind="dir">
+    <compoundname>C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src</compoundname>
+    <innerfile refid="_battleship_8c">Battleship.c</innerfile>
+    <innerfile refid="constants_8h">constants.h</innerfile>
+    <innerfile refid="funciones_8c">funciones.c</innerfile>
+    <innerfile refid="funciones_8h">funciones.h</innerfile>
+    <innerfile refid="structs_8h">structs.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/"/>
+  </compounddef>
+</doxygen>

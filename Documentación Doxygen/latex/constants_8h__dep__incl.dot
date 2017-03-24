@@ -1,0 +1,19 @@
+digraph "C:/Users/ALIEN/Documents/Paradigmas de Programaci[on/LAB 1/Battleship/src/constants.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="C:/Users/ALIEN/Documents\l/Paradigmas de Programaci\l[on/LAB 1/Battleship/src\l/constants.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="C:/Users/ALIEN/Documents\l/Paradigmas de Programaci\l[on/LAB 1/Battleship/src\l/funciones.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$funciones_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="C:/Users/ALIEN/Documents\l/Paradigmas de Programaci\l[on/LAB 1/Battleship/src\l/Battleship.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_battleship_8c.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="C:/Users/ALIEN/Documents\l/Paradigmas de Programaci\l[on/LAB 1/Battleship/src\l/funciones.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$funciones_8c.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="C:/Users/ALIEN/Documents\l/Paradigmas de Programaci\l[on/LAB 1/Battleship/src\l/structs.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structs_8h.html"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}
